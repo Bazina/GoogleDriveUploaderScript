@@ -70,6 +70,10 @@ Before using this script, ensure you have the following
 
 3. The script will upload files and folders to the specified Google Drive folder.
 
+> **Note**
+> 
+> - The `drive_id` is the last part of the URL of the Google Drive folder. For example, if the URL is `https://drive.google.com/drive/folders/1a2b3c4d5e6f7g8h9i0j`, the `drive_id` is `1a2b3c4d5e6f7g8h9i0j`.
+
 ## Contributing
 
 Contributions are welcomed! Fork the repository, make changes, and submit a pull request.
