@@ -19,8 +19,9 @@ This script enables you to upload files and folders to Google Drive using Python
 ## Features
 
 - Upload files to Google Drive with optional chunked upload for large files.
-- Create folders in Google Drive.
-- Recursively upload all files in a folder.
+- Create folders in Google Drive if needed.
+- Recursively upload new files in folders.
+- Upload MS Office files (docx, pptx, xlsx) as Google Docs, Sheets, and Presentations and fix the names.
 
 ## Prerequisites
 
