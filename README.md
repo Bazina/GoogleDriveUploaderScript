@@ -67,7 +67,7 @@ Here is a [video](https://youtu.be/ifw3b4Uf06g) that walks through the setup pro
 2. Run the script:
 
    ```bash
-   python main.py <origin_root> <drive_id>
+   python main.py "<origin_root>" "<drive_id>"
    ```
 
 3. The script will upload files and folders to the specified Google Drive folder.
