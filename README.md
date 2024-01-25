@@ -51,6 +51,8 @@ Before using this script, ensure you have the following
 
 ## Google Drive Setup
 
+Here is a [video](https://youtu.be/ifw3b4Uf06g) that walks through the setup process.
+
 1. Set up a Google Cloud Project and enable the Google Drive API.
 2. Create an OAuth consent screen (desktop application) with the required scopes.
    - `https://www.googleapis.com/auth/drive`
