@@ -21,6 +21,8 @@ EXTENSIONS = {
 
 FOLDER_MIMETYPE = 'application/vnd.google-apps.folder'
 
+FORBIDDEN_FOLDERS = ["Solutions", "Term Work"]
+
 
 def list_files_in_folder_as_df(folder_id):
     """
@@ -170,7 +172,7 @@ def is_forbidden_folder(name):
     :param name: name of the folder.
     :return: True if the folder is forbidden, False otherwise.
     """
-    return name == "Solutions" or name == "Term Work"
+    return name in FORBIDDEN_FOLDERS
 
 
 def main(argv):
