@@ -54,7 +54,7 @@ Before using this script, ensure you have the following
 Here is a [video](https://youtu.be/ifw3b4Uf06g) that walks through the setup process.
 
 1. Set up a Google Cloud Project and enable the Google Drive API.
-2. Create an OAuth consent screen (desktop application) with the required scopes.
+2. Create an OAuth consent screen (desktop application) with the required scopes (optional, you can go to step 4).
    - `https://www.googleapis.com/auth/drive`
 3. Put the server domain in the Authorized Domains section.
 4. Create a OAuth 2.0 Client ID and download the credentials file (you can leave the Authorized JavaScript origins blank).
