@@ -157,9 +157,10 @@ def exists(name, table):
         name_without_extension = os.path.splitext(name)[0]
 
         # filter table with the same name and the same file type
-        rows = table[(table["name"] == name_without_extension) & (table["mimeType"] == file_type)]
+        not_exist = table[(table["name"] == name_without_extension) &
+                          (table["mimeType"] == file_type)].empty if (not table.empty) else True
 
-        return file_type, not rows.empty
+        return file_type, not not_exist
     else:
         file_type = ""
 
